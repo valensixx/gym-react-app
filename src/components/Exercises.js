@@ -22,7 +22,7 @@ const Exercises = ({exercises, setExercises, bodyPart}) => {
         justifyContent='center'
       >
         {exercises.map((exercise, index)=> (
-          <ExerciseCard key={idex} exercise={exercise} /> 
+          <ExerciseCard key={index} exercise={exercise} /> 
         ))}
       </Stack>
     </Box>
